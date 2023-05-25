@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entreprise</title>
+    <link rel="stylesheet" href="entreprise.css">
+    <link rel="stylesheet" href="../style/navbar.css">
+    <link rel="stylesheet" href="../style/footer.css">
+</head>
+<body>
+    <nav class="nav" id="navbar">
+        <div class="logo">Max<span>!</span>me</div>
+        <div class="navlinks">
+            <ul>
+                <li><a href="../home.html">Home</a></li>
+                <li><a href="../moi/moi.html">About Me</a></li>
+                <li><a href="../cv/cv.html">CV</a></li>
+                <li><a href="../projets/projets.html">Projets</a></li>
+                <li class="activ"><a href="#">Entreprise</a></li>
+                <li><a href="../contact/contact.html">Contact</a></li>
+                <li><a href="../settings/settings.html"><img src="../img/parametres.png" id="para"></a></li>
+            </ul>
+        </div>
+        <img src="../img/hamburger.png" alt="hambuger-menu" class="hamb-menu">
+        <img src="../img/x.png" alt="x-closemenu" class="x-menu">
+    </nav>
+
+    <div class="presentation" id="presentation">
+        <div class="pres">
+            <div class="presimg"><img src="../img/cea.jpg"></div>
+
+            <div class="title"><h1>Mon entreprise :</h1></div>
+
+            <div class="descrip">
+                <p>
+                    Mon entreprise est le CEA (Commissariat à l'Énergie Atomique et aux Énergies alternative).<br>
+                    Il s'agit d'une EPIC c'est-à-dire un Etablissement Public à caractèere Industrielle et Commercial.
+                </p></div>
+        </div>
+    </div>
+
+    <div class="formation" id="formation">
+        <div class="card">
+            <a href="stage/stage.html">
+                <img src="../img/stage.png" class="card-image">
+                <h3 class="card-title-stage">Mon/Mes stage(s)</h3>
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="alternance/alternance.html">
+                <img src="../img/alternance.png" class="card-image">
+                <h3 class="card-title-alternance">Mon alternance</h3>
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-col">
+                <h1>Follow me</h1>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/maxime-saunot-336785224/" target="_blank"><img src="../img/linkedIn.png"><p>LinkedIn</p></a>
+                    <a href="#"><img src="../img/twitter.png"><p>Twitter</p></a>
+                    <a href="#"><img src="../img/instagram.png"><p>Instagram</p></a>
+                    <a href="#"><img src="../img/twitch.png"><p>Twitch</p></a>
+                </div>
+            </div>
+    
+    
+            <div class="container">
+                <h1>Contact Form</h1>   
+            <form action="/action_page.php">
+                <div class="txt_field">
+                    <input type="text" id="fname" name="firstname" placeholder="Your name">
+                    <span></span>
+                    <label for="fname">First Name</label>
+                </div>
+    
+                <div class="txt_field">
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name">
+                    <span></span>
+                    <label for="lname">Last Name</label>
+                </div>
+    
+                <div>
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="">Select ...</option>
+                        <option value="France">France</option>
+                        <option value="Canada">Canada</option>
+                        <option value="usa">USA</option>
+                </div>
+                </select>
+    
+                <div></div>
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+                <input type="submit" value="Submit">
+                <span id="machine"></span>
+            </form>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

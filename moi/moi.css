@@ -1,0 +1,112 @@
+.moi {
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.bts{
+    position: relative;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: justify;
+    padding-bottom: 5%;
+}
+.forma {
+    text-align: center;
+}
+
+.vei {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+.veil_tech{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    text-align: justify;
+    padding-bottom: 5%;
+}
+
+/*-------------------------Les cartes----------------------------*/
+.suj{
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.sujet {
+    position: static;
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+.sujet h1{
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.card{
+    width: 500px;
+    height: 350px;
+    background-color: #333;
+    border-radius: 10px;
+    outline: 1px solid rgba(255, 255, 255, .5);
+    outline-offset: -8px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .1);
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    margin: 0 10px;
+}
+.card-image{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: .6;
+    transition: transform .75s;
+}
+.card:hover .card-image{
+    transform: scale(1.15);
+}
+.card-title-metaverse{
+    position: absolute;
+    color: rgb(240, 60, 60);
+    left: 15px;
+    bottom: 15px;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px rgba(105, 48, 120, .5);
+}
+.card-title-ia{
+    position: absolute;
+    color: rgb(210, 95, 240);
+    left: 15px;
+    bottom: 15px;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px rgba(120, 30, 30, .5);
+}
+.card-title-film{
+    position: absolute;
+    color: rgb(240, 60, 60);
+    left: 15px;
+    bottom: 15px;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px rgba(105, 48, 120, .5);
+}
+.card-title-anime{
+    position: absolute;
+    color: rgb(210, 95, 240);
+    left: 15px;
+    bottom: 15px;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px rgba(120, 30, 30, .5);
+}

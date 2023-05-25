@@ -1,0 +1,24 @@
+.proj {
+    position: relative;
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+    column-gap: 40px;
+}
+.web{
+    width: 50%;
+    text-align: justify;
+}
+.web h1{
+    text-align: center;
+}
+.mobile{
+    width: 50%;
+    text-align: justify;
+}
+.mobile h1{
+    text-align: center;
+}

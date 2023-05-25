@@ -1,0 +1,181 @@
+/*-----------Tout ce qu'il y a ci-dessous n'est que pour la présentation-----------*/
+
+.presentation{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;}
+.pres{
+    position: relative;
+    height: 100vh;
+    width: 100%;}
+.presimg{
+    position: absolute;
+    left: 8%;
+    top: 50%;
+    transform: translate(-8%, -50%);}
+.presimg img{
+    width: 800px;
+}
+.title{
+    position: absolute;
+    left: 50%;
+    top: 31%;
+    transform: translateY(-31%);}
+.title h1{
+    font-size: 35px;
+    font-style: italic;
+    text-decoration: underline red;}
+.descrip{
+    position: absolute;
+    left: 50%;
+    top: 59%;
+    transform: translateY(-59%);
+    width: 900px;
+    text-align: justify;
+    text-indent: 20px;}
+.descrip p{
+    font-size: 22px;}
+    
+/*@media screen and (max-width: 1820px){
+    .presimg{
+        height: 33%;
+        width: 33%;
+        left: 50%;
+        top: 11%;
+        transform: translate(-50%, -11%);        
+    }
+    .presimg img{
+        width: 100%;
+    }
+    
+    .title{
+        height: 33%;
+        width: 33%;
+        left: 50%;
+        top: 55%;
+        transform: translate(-50%, -55%);
+    }
+    .descrip{
+        height: 33%;
+        width: 33%;
+        top: 88%;
+        left: 50%;
+        transform: translate(-50%, -88%);
+    }}*/
+/*@media screen and (max-width: 1820px){
+    .descrip{left: 50%;
+    transform: translateX(-50%);}}*/
+/*-----------Fin-----------*/
+
+.presentation{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;}
+.pres{
+    position: relative;
+    height: 100vh;
+    width: 100%;}
+.presimg{
+    position: absolute;
+    left: 8%;
+    top: 50%;
+    transform: translate(-8%, -50%);}
+.title{
+    position: absolute;
+    left: 50%;
+    top: 31%;
+    transform: translateY(-31%);}
+.title h1{
+    font-size: 35px;
+    font-style: italic;
+    text-decoration: underline red;}
+.descrip{
+    position: absolute;
+    left: 50%;
+    top: 59%;
+    transform: translateY(-59%);
+    width: 900px;
+    text-align: justify;
+    text-indent: 20px;}
+.descrip p{
+    font-size: 22px;}
+    
+/*@media screen and (max-width: 1820px){
+    .presimg{
+        height: 33%;
+        width: 33%;
+        left: 50%;
+        top: 11%;
+        transform: translate(-50%, -11%);        
+    }
+    .presimg img{
+        width: 100%;
+    }
+    
+    .title{
+        height: 33%;
+        width: 33%;
+        left: 50%;
+        top: 55%;
+        transform: translate(-50%, -55%);
+    }
+    .descrip{
+        height: 33%;
+        width: 33%;
+        top: 88%;
+        left: 50%;
+        transform: translate(-50%, -88%);
+    }}*/
+@media screen and (max-width: 1820px){
+    .descrip{left: 50%;
+    transform: translateX(-50%);}}
+/*-----------Fin-----------*/
+
+.formation {
+    display: flex;
+    height: 400px;
+    width: 100%;
+}
+.card{
+    width: 500px;
+    height: 350px;
+    background-color: #333;
+    border-radius: 10px;
+    outline: 1px solid rgba(255, 255, 255, .5);
+    outline-offset: -8px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .1);
+    position: relative;
+    left: 50%;
+    top: 85%;
+    transform: translate(-50%, -85%);
+    overflow: hidden;
+    margin: 0 10px;
+}
+.card-image{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: .6;
+    transition: transform .75s;
+}
+.card:hover .card-image{
+    transform: scale(1.15);
+}
+.card-title-stage{
+    position: absolute;
+    color: rgb(210, 95, 240);
+    left: 15px;
+    bottom: 15px;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px rgba(105, 48, 120, .5);
+}
+.card-title-alternance{
+    position: absolute;
+    color: rgb(240, 60, 60);
+    left: 15px;
+    bottom: 15px;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px rgba(120, 30, 30, .5);
+}

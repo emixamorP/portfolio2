@@ -1,0 +1,24 @@
+.retour{
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    transform: translate(-2%, -2%);
+}
+.retour img{
+    width: 75px;
+}
+
+.comparatif{
+    position: absolute;
+    top: 10%;
+    display: grid;
+}
+.avant{}
+.avant img{
+    width: 700px;
+}
+.fleche{}
+.apres{}
+.apres img{
+    width: 700px;
+}
